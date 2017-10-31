@@ -25,7 +25,7 @@
         <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">
         view
         </button>
-        <button class="btn btn-primary btn-xs">edit</button>
+        <button class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">edit</button>
         <button class="btn btn-danger btn-xs">del</button>
       </div>
 
@@ -47,31 +47,37 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-3">
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" id="title" placeholder="Title">
-            </div>
-            <div class="form-group has-error">
-              <input type="text" class="form-control" id="url" placeholder="Url">
-              <div class="help-block">Url is required</div>
-            </div>
-            <div class="form-group">
-              <div class="clearfix"></div>
-              <textarea cols="32" class="form-control">
+	  <div class="collapse" id="collapseExample">
+		  <div class="well">
 
-              </textarea>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" id="tags" placeholder="tags">
-              <div class="help-block">Use comma to seperate tags</div>
-            </div>
-            <button type="submit" class="btn btn-primary  btn-xs">Save</button> 
-            <button type="submit" class="btn btn-default btn-xs">Cancel</button>
-          </form>
-          </div>
-        </div>
+		      <div class="row">
+		        <div class="col-md-3">
+		          <form>
+		            <div class="form-group">
+		              <input type="text" class="form-control" id="title" placeholder="Title">
+		            </div>
+		            <div class="form-group has-error">
+		              <input type="text" class="form-control" id="url" placeholder="Url">
+		              <div class="help-block">Url is required</div>
+		            </div>
+		            <div class="form-group">
+		              <div class="clearfix"></div>
+		              <textarea cols="32" class="form-control">
+
+		              </textarea>
+		            </div>
+		            <div class="form-group">
+		              <input type="text" class="form-control" id="tags" placeholder="tags">
+		              <div class="help-block">Use comma to seperate tags</div>
+		            </div>
+		            <button type="submit" class="btn btn-primary  btn-xs">Save</button> 
+		            <button type="submit" class="btn btn-default btn-xs">Cancel</button>
+		          </form>
+		          </div>
+		        </div>
+
+		    </div>
+		</div>
 
 
 
